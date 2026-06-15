@@ -19,7 +19,7 @@ public class CapacityPlannerService
             warningMessage = "Warning: Demand exceeds capacity. Consider adding a section.";
         } else if (netDifference > 30)
         {
-            warningMessage = "Note: High excess capacity detected. Consider reducing sections.";
+            warningMessage = "Warning: High excess capacity detected. Consider reducing sections.";
         } else
         {
             warningMessage = "Supply matches expected demand.";
